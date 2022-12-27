@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fxxkdeepslate",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fxxk Deepslate",
+  "description": "A mod that can remove all deepslate, deepslate ores and tuffs in Minecraft.",
   "authors": [
-    "Me!"
+    "SodiumCl10"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Ace-tyl/fxxk-deepslate"
   },
 
   "license": "CC0-1.0",
@@ -19,17 +18,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "sodiumcl10.fxxkdeepslate.fxxkDeepslate"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fxxkdeepslate.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "fabric": ">=0.46.1",
+    "minecraft": "~1.17.1",
     "java": ">=17"
   },
   "suggests": {
